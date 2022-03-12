@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Hangman</title>
+  </head>
+  <link rel="stylesheet" href="a4styles.css">
+  <body>
+    <!--
+    First name: <input id="first_name" /> Last name: <input id="last_name" />
+    
+    <button onclick="say_hi()">Say hi!</button>
+    <div id="result"></div> 
+    -->
+
+    <button id="start" onclick="newGame()">New Game</button>
+
+<!--
+    <div style="padding-bottom: 50px;">
+        Username: <input id="username"> 
+    </div>
+-->
+
+    <div id="lives"></div>
+
+    <div id="userGuess">
+        Enter Letter: <input id="letter">
+        <button onclick="userGuess()">Guess</button>
+
+        <div id="lettersInAnswer" style="font-size: 50px;"></div>
+    </div>
+
+    <div id="grave">
+        <img src="http://clipart-library.com/image_gallery/n1231958.png" alt="headstone" height="100%">
+        <div id="graveyard"></div>
+        <!--<div id="test">Text that I want to go down goes here</div>-->
+    </div>
+
+    <div id="winLose"></div>
+
+    <div id="answer"></div>
+
+    <script src="JSWebApp.js">
+    </script>
+  </body>
+</html>
