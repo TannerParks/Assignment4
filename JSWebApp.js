@@ -35,11 +35,6 @@ function lifeCount(count) {
     }
 }
 
-// Function save score
-// username and password
-// if wrong repeat until typed right
-// repitition and object 
-
 function userGuess() {
     var guess = document.getElementById("letter").value.toLowerCase();
     var len = guess.length;
@@ -47,7 +42,6 @@ function userGuess() {
     var answerContains = answer.split("").includes(guess);
     var err = "This isn't a letter";
     var err2 = "You've already guessed this letter"
-    // Object: username, score, first name, last name
 
     if (len != 1) { // Gives an error if the guess is multiple letters
         alert(err);
